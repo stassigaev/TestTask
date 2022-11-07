@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Primetime";
+    src: local("Primetime"), url(assets/fonts/PRIMETIME_PERSONAL.ttf) format("truetype");
+}
+html { background-color: rgb(255, 255, 255); }
+p{
+    font-family:"Primetime" ;
+}

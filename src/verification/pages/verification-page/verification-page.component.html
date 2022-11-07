@@ -1,0 +1,14 @@
+<div class="page">
+  <div class="header">
+    <p class="header-name">Input text to check the strength</p>
+  </div>
+  <div class="input">
+    <app-verification-component
+      [(password)]="password"
+      (passwordChange)="assignPassword($event)"
+    ></app-verification-component>
+  </div>
+  <div class="bar">
+    <app-password-bar [password]="password"></app-password-bar>
+  </div>
+</div>

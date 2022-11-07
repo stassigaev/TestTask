@@ -1,0 +1,14 @@
+input{
+    border:none;
+    display:inline-block;
+    height:68px;
+    vertical-align:middle;
+    bottom:28px;
+    right:18px;
+    border-radius:44px;
+    width:440px;
+    box-sizing:border-box;
+    padding:0 36px;
+    font-size: x-large;
+    background:rgba(197,62,126,0.33)
+}
